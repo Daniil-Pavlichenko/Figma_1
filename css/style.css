@@ -1,0 +1,117 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+body{
+    width: 1440px;
+}
+.wrapper {
+    
+}
+.header {
+    background-color: black;
+    padding-top: 28px;
+    padding-bottom: 72px;
+}
+.header__container {
+    
+    background-color: black;
+}
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 450px;
+}
+.header__image {
+    margin-left: 36px
+}
+.header__nav {
+    display: flex;
+    margin-left: 64px;
+}
+.header__meny {
+    margin-left: 25px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    
+}
+.header__s{
+    color: #FFFFFF;
+}
+.header__s:hover{
+    font-weight: 700;
+}
+.header__nav2 {
+    display: flex;
+    align-items: center;
+}
+.header__contacs {
+    margin-left: 25px;
+}
+.heager__logo1{
+
+}
+.heager__logo2{
+}
+.heager__logo3{
+    
+}
+.header__tel{
+    color: white;
+    
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+margin-right: 53px;
+margin-left: 63px;
+}
+.header__info {
+    margin-left: 122px;
+}
+.header__title {
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 31.5393px;
+line-height: 38px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+text-shadow: 21px -1px 30px #001529;
+}
+.header__text {
+    margin-top: 16px;
+}
+.header__text__row {
+    display: flex;
+}
+.header__p {
+    margin-right: 74px;
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 17.5766px;
+line-height: 24px;
+/* or 137% */
+color: #FFFFFF;
+}
